@@ -1,2 +1,2 @@
-# PB-GNN
-The implementation of PB-GNN.
+# LPS-GNN
+The implementation of LPS-GNN.
