@@ -68,7 +68,7 @@ Example output, player p value
 20210103^Aopenid13^Aroleid13^A-1.3921325
 ```
 
-## Python Code Structure
+## Python Code Structure (Supervises GNN as example)
 
 ```
 ├─ inits.py                     // Implements various neural network parameter initialization methods  
@@ -78,3 +78,16 @@ Example output, player p value
 ├─ test_callback.py              // Prediction for friend recall in Game A 
 ├─ train_callback.py             // Training for friend recall in Game A 
 ├─ utils.py                      // Implements methods for reading Spark-generated subgraph files and various preprocessing utilities  
+```
+
+## Scala Code Structure
+
+```
+
+├─ scala/dm/sns/algo/LabelPropagationMetis.scala        // Implements LPmetis algorithm                       
+├─ scala/dm/sns/app/LPMetisExample.scala                // An example for calling LPmetis algorithm
+├─ scala/dm/sns/utils/HdfsUtil.scala                    // functions for using HDFS files  
+├─ scala/dm/sns/utils/Logging.scala                     // fuctions for logging  
+├─ scala/dm/sns/utils/OptionParser.scala               // fuctions for parsing input arguments
+
+```
