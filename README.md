@@ -2,7 +2,7 @@
 <!--基于图分割和子图全量图神经网络(Graph Convoutional Networks, GCN)的大规模图神经网络框架。可用于游戏内丰富的应用场景，比如好友召回，未成年人识别、广告推荐等。本目录以游戏A好友召回为例，对2亿+游戏玩家组成的游戏社交关系图训练5层有监督GCN模型。以预测流失玩家的回流概率。-->
 A large-scale graph neural network framework based on graph partitioning and subgraph-based full-scale Graph Convolutional Networks (GCN). It can be applied to diverse in-game scenarios such as friend recall, minor identification, and ad recommendation. Taking the friend recall scenario in Game A as an example, this directory trains a 5-layer supervised GCN model on a social relationship graph composed of over 200 million gamers to predict the return probability of churned players.
 
-![image-20210106184901](./python/img/大规模GCN框架图.png)
+![image-20210106184901](./python/img/LPS-GNN.png)
 
 ### Prerequisites
 * Python 3.7
