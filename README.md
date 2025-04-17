@@ -68,7 +68,7 @@ Example output, player p value
 20210103^Aopenid13^Aroleid13^A-1.3921325
 ```
 
-## Python Code Structure (Supervises GNN as example)
+## Python Code Structure (Supervised GNN as example)
 
 ```
 ├─ inits.py                     // Implements various neural network parameter initialization methods  
