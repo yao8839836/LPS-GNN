@@ -1,7 +1,7 @@
 # coding=utf-8
 # Copyright (c) 2020 Tencent Inc. All Rights Reserved
 # ******************************************************************************
-# 程序名称:     和平精英好友召回Cluster GCN训练
+# 程序名称:     游戏A好友召回Cluster GCN训练
 # 功能描述:     实现了不同的神经网络层
 # 创建人名:     dryao
 # 创建日期:     2020/6/9
@@ -167,7 +167,7 @@ def main(unused_argv):
 
     train_ids = set()
     train_id_file = '{}/train_ids'.format(mask_path)
-    # train_id_file = "/cephfs/group/ieg-iegpdata-hy-dc-dm/dryao/jdqssy/callback/train_features"
+    # train_id_file = "./dryao/jdqssy/callback/train_features"
 
     with open(train_id_file, "r") as tmp_file:
         lines = tmp_file.readlines()
@@ -178,7 +178,7 @@ def main(unused_argv):
     # Load validation nodes
     val_ids = set()
     val_id_file = '{}/val_ids'.format(mask_path)
-    # val_id_file = "/cephfs/group/ieg-iegpdata-hy-dc-dm/dryao/jdqssy/callback/val_features"
+    # val_id_file = "./dryao/jdqssy/callback/val_features"
 
     with open(val_id_file, "r") as tmp_file:
         lines = tmp_file.readlines()
