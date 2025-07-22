@@ -1,7 +1,7 @@
 # coding=utf-8
 # Copyright (c) 2020 Tencent Inc. All Rights Reserved
 # ******************************************************************************
-# 程序名称:     和平精英好友召回Cluster GCN预测
+# 程序名称:     游戏A好友召回Cluster GCN预测
 # 功能描述:     以玩家是否回流为标签，玩家好友关系为图，利用Cluster-GCN模型计算P值
 # 创建人名:     dryao
 # 创建日期:     2020/7/9
@@ -63,11 +63,11 @@ flags.DEFINE_string('embedding_path', '', 'embedding_path')
 
 # flags.DEFINE_string(
 #     'feature_path',
-#     '/cephfs/group/ieg-iegpdata-hy-dc-dm/dryao/jdqssy/callback/test_subgraph_features/',
+#     './callback/test_subgraph_features/',
 #     'Path of subgraph features')
 # flags.DEFINE_string(
 #     'edge_path',
-#     "/cephfs/group/ieg-iegpdata-hy-dc-dm/dryao/jdqssy/callback/test_subgraph_edges/",
+#     "./callback/test_subgraph_edges/",
 #     'Path of subgraph edges')
 
 flags.DEFINE_float(
